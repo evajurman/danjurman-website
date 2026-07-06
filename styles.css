@@ -82,7 +82,7 @@ body {
   margin: 0px;
   position: relative;
   min-height: 100vh;
-  background: #fffffc;
+  background: #e7e5d9;
 }
 
 a {
@@ -95,7 +95,7 @@ a {
   position: fixed;
   top: 0px;
   width: calc(100% - 28px);
-  background: #fffaf8;
+  background: #e7e5d9;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -195,7 +195,7 @@ tile-column art-tile::before {
 }
 
 tile-column art-tile:hover::before {
-  background-color: rgba(255, 255, 252, 0.95);
+  background-color: #e7e5d9ec;
 }
 
 tile-column art-tile::after {
