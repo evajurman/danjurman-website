@@ -220,6 +220,7 @@ tile-column art-tile::after {
   width: calc(100% - 100px);
   transition: all 0.2s;
   font-size: 1.15em;
+  font-style: italic;
 }
 
 tile-column art-tile:hover::after {
