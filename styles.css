@@ -1,5 +1,6 @@
 /* Set fonts */
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Zalando+Sans+Expanded:wght@900&display=swap");
+
 body {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
@@ -53,7 +54,9 @@ showcase-description-slider {
 showcase-description > * > h2 {
   margin-top: 0px;
   line-height: 1em;
+  font-size: 18px;
   font-weight: 400;
+  font-style: italic;
 }
 
 @media screen and (max-width: 1000px) {

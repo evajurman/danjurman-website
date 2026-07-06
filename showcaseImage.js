@@ -69,9 +69,9 @@ function showcaseImage(artTile) {
       <p style="margin-top: 2em; line-height: 1.3em;">${artTile.getAttribute(
         "data-description",
       )}</p>
-      <p style="margin-top: 2em;"><i>${artTile.getAttribute(
+      <p style="margin-top: 2em;">${artTile.getAttribute(
         "data-publication",
-      )}</i></p>
+      )}</p>
     </showcase-description-slider>
   `;
 
